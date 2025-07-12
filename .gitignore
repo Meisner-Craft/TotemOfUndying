@@ -1,0 +1,35 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.VC.db
+
+# Rider / CLion
+.idea/
+*.DotSettings.user
+
+# Build output
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+*~
+
+# Ignore self
+# (оставляем .gitignore, НЕ исключаем его из гита)
+!.gitignore
